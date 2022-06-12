@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="container pt-5" id='contact'>
       <div className="row">
         <div className="col-lg-6">
-          <p className='display-6 pt-2'>Get in tounch</p>
+          <p className='display-6 pt-2'>Get in touch</p>
           <p className="pe-5 pt-2">
             If you would like to contact me. Please, feel free to send me a
             message via my email which is provided below, you can also message
