@@ -1,11 +1,23 @@
 import React from 'react';
+import { useState, useEffect } from "react";
 import './NavBar.css';
 
 export default function NavBar() {
+  let [isScrolled, setScroll] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY >= 200 ? setScroll(true) : setScroll(false);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
       {/* Navbar */}
-<nav className="navbar navbar-expand-lg navbar-dark bg-info">
+<nav  className="navbar navbar-expand-lg navbar-dark"
+        style={{ backgroundColor: isScrolled ? "#16b5ea" : "transparent" }}>
   {/* Container wrapper */}
   <div className="container-fluid px-5">
     {/* Toggle button */}

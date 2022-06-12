@@ -2,6 +2,7 @@
     position: fixed;
     width: 100%;
     z-index: 3;
+    box-shadow: none;
 }
 .navbar .navbar-nav .nav-link {
     color: #ffffff !important;

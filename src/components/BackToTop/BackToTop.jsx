@@ -1,11 +1,12 @@
 import React from "react";
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import "./BackToTop.css";
 
 export default function BackToTop() {
   let [isShown, setShow] = useState(false);
-  // When the user scrolls down 200px from the top of the document, show the button
-  window.onscroll = () => {
+ useEffect(() => {
+   // When the user scrolls down 200px from the top of the document, show the button
+   const handleScroll = () => {
     if (
       document.body.scrollTop > 200 ||
       document.documentElement.scrollTop > 200
@@ -15,6 +16,11 @@ export default function BackToTop() {
       setShow(false);
     }
   };
+  window.addEventListener('scroll', handleScroll);
+  return ()=>{
+    window.removeEventListener('scroll', handleScroll)
+  }
+ },[])
   const backToTop = () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
