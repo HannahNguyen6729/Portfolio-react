@@ -1,0 +1,166 @@
+{
+  "portfolio": {
+    "story": "I was born and raised in Vietnam. I graduated a university in my country in 2014. When I was working in Vietnam, I met some people studying abroad and told me about their adventures. From that, I wanted to get out of my comfort zone and see the world. I came to Finland on my own as a student again. I was studying and working at the same time and started my in-depth front-end programming journey. Since then, I have made a lot of projects, from basic HTML pages to complex projects like a React library. I hope to be a great fullstack developer and get my dream job in the future.",
+    "intro": "Besides coding, I also like to read blogs, anime and listen to music. My favorite animes are Naruto Uzumaki, Demon Slayer: Kimetsu no Yaiba, InuYasha: Dog Demon and so on.",
+    "infor": {
+      "name": "Hanh Nguyen (Hannah Nguyen)",
+      "address": "Hakokuja 1, Vantaa, Finland",
+      "email": "myhanh.nguyen.969317598@gmail.com",
+      "phone": "041 319 6729",
+      "github": "https://github.com/HannahNguyen6729"
+    },
+    "mainProjects": [
+      {
+        "name": "Shopping cart",
+        "description": "An e-commerce web built with ReactJS, redux where customers can choose products, change the quantity and check total price.",
+        "gitRepo": "https://github.com/HannahNguyen6729/Shopping-cart-react-redux",
+        "website": "https://shopping-cart-react-redux.surge.sh/",
+        "img": "../images/mainProject/shoppingCart.png"
+      },
+      {
+        "name": "To do list",
+        "description": "A to-do-list app built with redux-thunk, send requests to backend API to get all to-do-list, create a new todo, update & delete todo",
+        "gitRepo": "https://github.com/HannahNguyen6729/ToDoListReduxThunk",
+        "website": "http://todolist-redux-thunk.surge.sh/",
+        "img": "../images/mainProject/todolist.png"
+      },
+      {
+        "name": "User management",
+        "description": "A website validate user's info when filling the registration form. Becoming the member of the team and edit your information!",
+        "gitRepo": "https://github.com/HannahNguyen6729/user-management-react-redux-app",
+        "website": "https://staff-management.surge.sh/",
+        "img": "../images/mainProject/userManagement.png"
+      },
+      {
+        "name": "Virtual fitting room",
+        "description": "A a digital dressing room built with react, redux where you can easily find your unique style, combine items together, try on.",
+        "gitRepo": "https://github.com/HannahNguyen6729/VirtualFittingRoom_React_Redux",
+        "website": " https://virtual-fitting-room-react.surge.sh/",
+        "img": "../images/mainProject/virtualRoom.png"
+      },
+      {
+        "name": "Fish shrimp crab game",
+        "description": "Fish Shrimp Crab dice game is a Vietnamese lucky game which often used in lunar new year. This website is built with ReactJS",
+        "gitRepo": "https://github.com/HannahNguyen6729/Fish_Shrimp_Crab_diceGame_React",
+        "website": "https://fish-shrimp-carb.surge.sh/",
+        "img": "../images/mainProject/diceGame.png"
+      },
+      {
+        "name": "Login form",
+        "description": "A small project built with reactjs, redux-saga, antd library, uses yup-formik to validate form, helps to get access token & user's infor",
+        "gitRepo": "https://github.com/HannahNguyen6729/LoginFormWithReduxSaga",
+        "website": "https://loginformreduxsaga.surge.sh/",
+        "img": "../images/mainProject/loginForm.png"
+      }
+    ],
+    "otherProjects": [
+      {
+        "name": "Group chat app",
+        "description": "A demo UI for gamers to send message in the chat room.",
+        "gitRepo": "https://github.com/HannahNguyen6729/GroupChatApp"
+      },
+      {
+        "name": "Order burger",
+        "description": "A small app built with reactjs, redux to help user order a burger",
+        "gitRepo": "https://github.com/HannahNguyen6729/order_burger_app"
+      },
+      {
+        "name": "Honda website",
+        "description": "A cloned web from Honda website.",
+        "gitRepo": "https://github.com/HannahNguyen6729/Honda-project"
+      },
+      {
+        "name": "Rock paper scissors",
+        "description": "Rock paper scissors game built using ReactJS, Redux",
+        "gitRepo": "https://github.com/HannahNguyen6729/rock_paper_scissors_game_redux"
+      },
+      {
+        "name": "Try on glasses",
+        "description": "A website helps users can choose the best glasses and allowing them to try it on the model",
+        "gitRepo": "https://github.com/HannahNguyen6729/tryOnGlassesReactJs"
+      },
+      {
+        "name": "Calculator web",
+        "description": "Calculator app built using ReactJS, Redux",
+        "gitRepo": "https://github.com/HannahNguyen6729/calculatorAppReactJS"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "name": "Javascript",
+        "icon": "/images/tech/javascript.svg"
+      },
+      {
+        "id": 2,
+        "name": "React.js",
+        "icon": "/images/tech/react.svg"
+      },
+      {
+        "id": 3,
+        "name": "HTML",
+        "icon": "/images/tech/html.svg"
+      },
+      {
+        "id": 4,
+        "name": "CSS",
+        "icon": "/images/tech/css.svg"
+      },
+      {
+        "id": 5,
+        "name": "Firebase",
+        "icon": "/images/tech/firebase.svg"
+      },
+      {
+        "id": 6,
+        "name": "Jquery",
+        "icon": "/images/tech/jquery.png"
+      },
+      {
+        "id": 7,
+        "name": "SASS",
+        "icon": "/images/tech/sass.svg"
+      },
+      {
+        "id": 8,
+        "name": "Ant Design",
+        "icon": "/images/tech/antd.svg"
+      },
+      {
+        "id": 9,
+        "name": "Tailwind",
+        "icon": "/images/tech/tailwindcss.svg"
+      },
+      {
+        "id": 10,
+        "name": "Framer",
+        "icon": "/images/tech/framer.svg"
+      },
+      {
+        "id": 11,
+        "name": "NPM",
+        "icon": "/images/tech/npm.svg"
+      },
+      {
+        "id": 12,
+        "name": "NodeJS",
+        "icon": "/images/tech/nodejs.svg"
+      },
+      {
+        "id": 13,
+        "name": "C#",
+        "icon": "/images/tech/c.svg"
+      },
+      {
+        "id": 14,
+        "name": "Java",
+        "icon": "/images/tech/java.svg"
+      },
+      {
+        "id": 15,
+        "name": "Git",
+        "icon": "/images/tech/git.svg"
+      }
+    ]
+  }
+}
