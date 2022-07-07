@@ -4,11 +4,18 @@
     "intro": "Besides coding, I also like to read blogs, anime and listen to music. My favorite animes are Naruto Uzumaki, Demon Slayer: Kimetsu no Yaiba, InuYasha: Dog Demon and so on.",
     "infor": {
       "name": "Hanh Nguyen (Hannah Nguyen)",
-      "address": "Vantaa, Finland",
+      "address": "Hakokuja 1, Vantaa, Finland",
       "email": "myhanh.nguyen.969317598@gmail.com",
       "phone": "041 319 6729",
       "github": "https://github.com/HannahNguyen6729"
     },
+    "recentProject": [{
+        "name": "Jira Clone",
+        "description": "A Jira clone project which helps user to manage projects, tasks and members. Mainly built with React, Redux, Redux-saga, And Design, React router-dom, Tinymce-react. Validation: Formik + Yup. Apply HOC for reusable components",
+        "gitRepo": "https://github.com/HannahNguyen6729/JiraClone",
+        "website": "http://jira_clone_project_management.surge.sh/",
+        "img": "../images/mainProject/JiraClone.png"
+    }],
     "mainProjects": [
       {
         "name": "Shopping cart",
