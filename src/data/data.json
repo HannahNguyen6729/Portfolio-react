@@ -9,13 +9,22 @@
       "phone": "041 319 6729",
       "github": "https://github.com/HannahNguyen6729"
     },
-    "recentProject": [{
+    "recentProject": [
+      {
         "name": "Jira Clone",
         "description": "A Jira clone project which helps user to manage projects, tasks and members. Mainly built with React, Redux, Redux-saga, And Design, React router-dom, Tinymce-react. Validation: Formik + Yup. Apply HOC for reusable components",
         "gitRepo": "https://github.com/HannahNguyen6729/JiraClone",
         "website": "http://jira_clone_project_management.surge.sh/",
         "img": "../images/mainProject/JiraClone.png"
-    }],
+    },
+    {
+      "name": "Pokemon App",
+      "description": "A simple Pokemon application using the Pokemon API and helping users choose their favourite pokemon. This app is built with ReactJs, hooks, TypeScript.",
+      "gitRepo": "https://github.com/HannahNguyen6729/Pokemon-app",
+      "website": "https://my-pokemon.surge.sh/",
+      "img": "../images/mainProject/Pokemon.png"
+  }
+  ],
     "mainProjects": [
       {
         "name": "Shopping cart",
@@ -147,11 +156,6 @@
         "id": 11,
         "name": "NPM",
         "icon": "/images/tech/npm.svg"
-      },
-      {
-        "id": 12,
-        "name": "NodeJS",
-        "icon": "/images/tech/nodejs.svg"
       },
       {
         "id": 13,

@@ -8,8 +8,8 @@ export default function MainProjects() {
         return mainProjects.map((project, index) => <ProjectItem key={index} item={project}/>)
     }
   return (
-    <div className="container w-75 pt-5 pb-4" id='projects'>
-      <p className="display-4 text-center">Recent projects</p>
+    <div className="container w-75 pb-4" id='projects'>
+      <p className="display-4 text-center">Feature projects</p>
       <div className="row">
         {renderProjects()}
       </div>
