@@ -167,6 +167,11 @@
         "id": 15,
         "name": "Git",
         "icon": "/images/tech/git.svg"
+      },
+      {
+        "id": 16,
+        "name": "TypeScript",
+        "icon": "/images/tech/typescript.svg"
       }
     ]
   }
